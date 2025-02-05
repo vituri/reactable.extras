@@ -16,7 +16,7 @@ The module `reactable_extras_ui`/`reactable_extras_server` is deprecated. We now
 </p>
 
 
-`reactable_extras_ui()` and `reactalbe_extras_server()` is a wrapper for `reactable::reactableOutput()` and `reactable::renderReactable({reactable(...)})`. It renders only a subset of a large data in the server memory. This almost instantly renders the desired page and keeps the amount of memory used in the browser minimal.
+`reactable_extras_ui()` and `reactable_extras_server()` is a wrapper for `reactable::reactableOutput()` and `reactable::renderReactable({reactable(...)})`. It renders only a subset of a large data in the server memory. This almost instantly renders the desired page and keeps the amount of memory used in the browser minimal.
 
 Consider this example data:
 
